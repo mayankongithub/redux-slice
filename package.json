@@ -1,0 +1,21 @@
+{
+  "name": "redux-slice",
+  "displayName": "redux slice",
+  "description": "This extension we create snippet for redux slice.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "icon": "redux_icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
